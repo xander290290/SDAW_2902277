@@ -162,12 +162,6 @@ npm-debug.log
 
 ---
 
-## 🧩 Conclusiones Personales
-
-Esta práctica me permitió comprender de manera práctica el funcionamiento de Git y GitHub, especialmente en el manejo de ramas, commits y pull requests. Además, logré integrar un proyecto Node.js sencillo con control de versiones distribuido, documentando cada paso del proceso.
-
----
-
 ## 📎 Enlace al repositorio remoto
 
 🔗 https://github.com/xander290290/SDAW_2902277.git
