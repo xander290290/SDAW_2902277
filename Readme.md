@@ -196,3 +196,74 @@ Para la conexión con GitLab vamos a hacer el siguiente comando:
 git remote add origin2 https://gitlab.com/xander290290/sdaw_2277.git
 ```
 En mi caso cambie origin por origin2 ya que ese es el nombre que le di al remoto conectado por GitHub, y seguido de esto escribi la url del repositorio en GitLab
+
+---
+
+## 📌 Múltiples remotos en Git
+
+### 🔹 ¿Qué significa tener múltiples remotos?
+
+-   Un repositorio local conectado a mas de un repositorio remoto.
+-   Puedes tener la misma información en ambos remotos o diferente información en cada uno.
+-   Puedes copiar las ramas que desees en un remoto y copiarlo a otra rama creada en local.
+
+------------------------------------------------------------------------
+
+### 🔹 Ventajas
+
+-   🟢 Tener mayor acceso por si una plataforma no funciona.
+-   🟢 Conexión entre diferentes proyectos que tengan un punto en común.
+-   🟢 Poder migrar u proyecto creado en una plataforma a otra con la se esté mas cómodo.
+
+### 🔹 Inconvenientes
+
+-   🔴 Diferentes funciones en cada plataforma.
+-   🔴 Puede crear conflictos al hacer pull con diferentes remotos.
+-   🔴 Confusión al tener diferentes ramas en cada remoto o con los nombres de estos.
+
+
+------------------------------------------------------------------------
+
+### 🔹 Comandos utilizados o consultados
+
+#### Ver los remotos configurados
+
+``` bash
+git remote -v
+```
+
+#### Agregar un remoto
+
+``` bash
+git remote add origin https://github.com/xander290290/SDAW_2902277.git
+git remote add origin2 https://gitlab.com/xander290290/sdaw_2277.git
+```
+
+#### Crear ramas desde main y moverse a cada una
+
+``` bash
+git branch rama3_alexander
+git branch rama4_alexander
+git checkout rama3_alexander
+git checkout rama4_alexander
+```
+
+#### Creación de commits
+
+``` bash
+git add . # Tambien se puede hacer solo moviendo a staging area el archivo con git add Readme.md
+git commit -m "Comentario de cada rama"
+```
+
+#### Subir cambios a un remoto específico
+
+``` bash
+git push origin main
+git push origin2 main
+```
+### Configuración del usuario 
+
+``` bash
+git push origin main
+git push origin2 main
+```
