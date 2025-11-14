@@ -188,3 +188,11 @@ Historial del proyecto en una sola línea:
 ## 🧠 Información técnica añadida desde rama 3
 En la primera practica he aprendido los conceptos básicos de tener un repostiroio remoto
 
+---
+
+## 📜 Información técnica añadida desde rama 4
+Para la conexión con GitLab vamos a hacer el siguiente comando:
+```
+git remote add origin2 https://gitlab.com/xander290290/sdaw_2277.git
+```
+En mi caso cambie origin por origin2 ya que ese es el nombre que le di al remoto conectado por GitHub, y seguido de esto escribi la url del repositorio en GitLab
