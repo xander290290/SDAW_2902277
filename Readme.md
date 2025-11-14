@@ -187,3 +187,4 @@ Historial del proyecto en una sola línea:
 
 ## 🧠 Información técnica añadida desde rama 3
 En la primera practica he aprendido los conceptos básicos de tener un repostiroio remoto
+
