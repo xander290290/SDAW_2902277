@@ -185,6 +185,11 @@ Historial del proyecto en una sola línea:
 
 ---
 
+## 🧠 Información técnica añadida desde rama 3
+En la primera practica he aprendido los conceptos básicos de tener un repostiroio remoto
+
+---
+
 ## 📜 Información técnica añadida desde rama 4
 Para la conexión con GitLab vamos a hacer el siguiente comando:
 ```
