@@ -184,3 +184,6 @@ Historial del proyecto en una sola línea:
 1fe073c Primer commit: Estructura base
 
 ---
+
+## 🧠 Información técnica añadida desde rama 3
+En la primera practica he aprendido los conceptos básicos de tener un repostiroio remoto
